@@ -33,7 +33,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App ui container" style={{ marginTop: '20px' }}>
+      <div className="App ui center aligned container" style={{ marginTop: '20px' }}>
         <SearchBar onSubmit={this.onSearchSubmit} />
         <ImageList images={this.state.images} />
       </div>
